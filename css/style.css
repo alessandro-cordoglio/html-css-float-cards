@@ -15,10 +15,63 @@
     margin: auto;
 }
 
-h1{
+body{
     font-family: 'Fredoka', sans-serif;
-    color: #E53170;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* --------------
+    MAIN
+--------------- */
+.intestazione{
     text-align: center;
-    padding-top:45px;
-    font-size: 46px;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 47px;
+    color: #E53170;
+}
+
+.paragrafo{
+    margin-top: 50px;
+
+}
+
+.propic{
+    float: left;
+    width: 30%;
+}
+
+.person-tag{
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+    width: calc(33.33% - 25px) ;
+    margin-right: 25px ;
+    float: left;
+    box-shadow: 10px 5px 0 0 ;
+}
+
+.didascalia{
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    flex: auto;
+    flex-direction: column;
+}
+
+.didascalia p, .didascalia a{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
 }
